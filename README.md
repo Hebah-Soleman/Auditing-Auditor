@@ -48,13 +48,13 @@ The formula:
   $F_{1}=\frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
 
 ## Results
-Figure ![](images/confusion_matrix.png) shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
+The following figure shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
 ing across 10 epochs. The result of the metrics are: 
-Accuracy = 0.84
-Precision = 
-Recall = 
-F1 = 0.8
-
+Accuracy = 84%
+Precision = 89%
+Recall = 90%
+F1 = 80%
+<img src="images/confusion_matrix.png" alt="My Image" width="300"/>
 ## Contact
 Feel free to contact us with any questions or feedback:
 
