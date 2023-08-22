@@ -3,7 +3,7 @@ The main purpose of this project is to classify the output of  LLMs or any Langu
 
 The following image describe the Workflow of the project.
 
-![](images/arch.png)
+<img src="images/arch.png" alt="My Image" width="600"/>
 ## Data Preparation
 
 In order to train the [DistilBERT](https://arxiv.org/abs/1910.01108) model we use [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) dataset. [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) is a comprehensive classification dataset with over 300k+ examples, developed to support research on safety alignment in large language models (LLMs).
@@ -54,7 +54,7 @@ Accuracy = 84%
 Precision = 89%
 Recall = 90%
 F1 = 80%
-<img src="images/confusion_matrix.png" alt="My Image" width="300"/>
+<img src="images/confusion_matrix.png" alt="My Image" width="400"/>
 ## Contact
 Feel free to contact us with any questions or feedback:
 
