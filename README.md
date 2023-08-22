@@ -25,19 +25,19 @@ We use the following metrics to evaluate the model:
 - Accuracy: 
 Percent accuracy is a ratio used to describe how close a measured or observed value of a measurement or test is to the theoretical value. he formula:
 
-$Accuracy=\frac{TP+TN}{TP+FP+TN+FN}$ 
+    $Accuracy=\frac{TP+TN}{TP+FP+TN+FN}$ 
 
 - Precision: The precision measurement indicates how
 many positive predictions were correct (true positives). The formula:
 
- $Precision=\frac{TP}{TP+FP}$
+   $Precision=\frac{TP}{TP+FP}$
 
 - Recall: The recall measures how many positive cases
 were correctly predicted by the classifier, over all the
 positive cases in the data. Sometimes it is called sensi-
 tivity. The formula:
 
- $Recall=\frac{TP}{TP+TN}$
+   $Recall=\frac{TP}{TP+TN}$
 
 - F1: The F1-Score combines precision and recall. It is
 described as the harmonic mean of the two. In general,
@@ -45,7 +45,7 @@ harmonic means are described as more suitable for ra-
 tios (such as precision and recall) than their. 
 The formula:
 
- $F_{1}=\frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
+  $F_{1}=\frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
 
 ## Results
 Figure ![](images/confusion_matrix.png) shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
