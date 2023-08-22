@@ -7,7 +7,7 @@ The following image describe the Workflow of the project.
 ## Data Preparation
 
 In order to train the [DistilBERT](https://arxiv.org/abs/1910.01108) model we use [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) dataset. [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) is a comprehensive classification dataset with over 300k+ examples, developed to support research on safety alignment in large language models (LLMs).
-Besides this, we create our own dataset [](dataset/LLMs_response.csv) using chatGPT and BARD LLMs. We ask each model a few malicious questions with some manipulations and save the answers in a CSV file.
+Besides this, we create our own dataset [LLMs_response.csv](dataset/LLMs_response.csv) using chatGPT and BARD LLMs. We ask each model a few malicious questions with some manipulations and save the answers in a CSV file.
 We use our dataset belonging to the [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) to train the model.
 
 ## Model Training
