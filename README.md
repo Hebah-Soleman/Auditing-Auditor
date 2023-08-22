@@ -14,11 +14,11 @@ We use our dataset belonging to the [PKU-Alignment/BeaverTails](https://github.c
 
  - Pre-trained Model used: [DistilBERT](https://arxiv.org/abs/1910.01108) from KerasNLP
  - Data prepration: The data splited into 80% for train and 20% for test (after evaluation we use all the data as a train data)
- - Fine-tuning and trainig model:  
- * Batch size: 32 Batch size
- * Loss function: Binary Cross Entropy loss function 
- * Optimizer: Adam optimizer 
- * Learinig rate: 1e-5 learning rate
+ - Fine-tuning and trainig model:
+    * Batch size: 32 Batch size
+    * Loss function: Binary Cross Entropy loss function 
+    * Optimizer: Adam optimizer 
+    * Learinig rate: 1e-5 learning rate
     
 ## Evaluation
 we use the following metrics to evaluate the model:
