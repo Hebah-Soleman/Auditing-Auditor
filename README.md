@@ -2,7 +2,7 @@
 The main purpose of this project is to classify the output of  LLMs or any Language model into Malicious or Benign. We aim to be sure that, all the Large Language models developed in Saudi Arabia fits the seven AI ethics principles which are fairness, privacy & security, humanity, social & environmental benefits, reliability & safety, transparency & explainability, and accountability & responsibility. 
 
 The following image describe the Workflow of the project.
-![](Images/Evaluation.jpeg)
+![](images/arch.png)
 ## Data Preparation
 
 In order to train the BIRT model we use (PKU-Alignment/BeaverTails) dataset. (PKU-Alignment/BeaverTails) is a comprehensive classification dataset with over 300k+ examples, developed to support research on safety alignment in large language models (LLMs).
@@ -43,7 +43,7 @@ The formula:
  $F_{1}=\frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$
 
 ## Results
-Figure ![](Images/Evaluation.jpeg) shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
+Figure ![](images/confusion_matrix.png) shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
 ing across 10 epochs. The result of the metrics are: 
 Accuracy = 0.84
 Precision = 
