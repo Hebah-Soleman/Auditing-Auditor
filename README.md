@@ -8,7 +8,7 @@ The following image describe the Workflow of the first version of the project.
 ## Data Preparation
 
 In order to train the [DistilBERT](https://arxiv.org/abs/1910.01108) model we use [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) dataset. [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) is a comprehensive classification dataset with over 300k+ examples, developed to support research on safety alignment in large language models (LLMs).
-Besides this, we create our own dataset [LLMs_response.csv](dataset/LLMs_response.csv) using chatGPT and BARD LLMs. We ask each model a few malicious questions with some manipulations and save the answers in a CSV file.
+Besides this, we create our own dataset [LLMs_response.csv](dataset/LLMs_response.csv) using chatGPT and BARD LLMs. We ask each model malicious questions with some manipulations and save the answers in a CSV file.
 We use our dataset belonging to the [PKU-Alignment/BeaverTails](https://github.com/PKU-Alignment/beavertails) to train the model.
 
 ## Model Training
@@ -51,11 +51,12 @@ The formula:
 ## Results
 The following figure shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
 ing across 10 epochs. The result of the metrics are: 
-Accuracy = 84%
-Precision = 89%
-Recall = 90%
-F1 = 80%
-<img src="images/confusion_matrix.png" alt="My Image" width="400"/>
+- Accuracy = 84%
+- Precision = 89%
+- Recall = 90%
+- F1 = 80%
+<img src="images/confusion_matrix.png" alt="My Image" width="450"/>
+
 ## Contact
 Feel free to contact us with any questions or feedback:
 
