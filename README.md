@@ -52,9 +52,9 @@ The formula:
 The following figure shows the result of the confusion matrix from the evaluation metrics applied to the model subsequent to its train-
 ing across 10 epochs. The result of the metrics are: 
 - Accuracy = 84%
-- Precision = 89%
-- Recall = 90%
-- F1 = 80%
+- Precision = 82%
+- Recall = 44%
+- F1 = 82%
 <img src="images/confusion_matrix.png" alt="My Image" width="450"/>
 
 ## Contact
